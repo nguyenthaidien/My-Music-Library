@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+/* Target the h1 element within app-root */
+app-root h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  /* Target the nav element within app-root */
+  app-root nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 1rem;
+  }
+  
+  /* Target the router-outlet element within app-root */
+  app-root router-outlet {
+    margin-top: 2rem;
+  }
+  
+  /* Target the h1 element within app-album-list */
+  app-album-list h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  /* Target the div elements within app-album-list */
+  app-album-list div {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  /* Target the a element within app-album-list */
+  app-album-list a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

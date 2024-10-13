@@ -1,0 +1,13 @@
+<h2>Album Details</h2>
+<div *ngIf="album">
+  <h3>{{ album.title }}</h3>
+  <p>Artist: {{ album.artist }}</p>
+  <p>Year: {{ album.year }}</p>
+  <p>Genre: {{ album.genre }}</p>
+</div>
+<!-- <div *ngIf="musicList.length > 0">
+  <h3>Songs</h3>
+  <div *ngFor="let song of musicList">
+    <p>{{ song.title }} - {{ song.duration }}</p>
+  </div>
+</div> -->
